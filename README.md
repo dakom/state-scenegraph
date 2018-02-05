@@ -6,7 +6,9 @@
 
 This example uses a full copy of an old drift-utils package to build an interactive scene graph
 
-Flatbuffer serialization and the JSX/State/Lens utilities were deprecated well before this release, but this was the last public demo built.
+Flatbuffer serialization and the JSX/State/Lens utilities were deprecated well before this release, but this was the last public demo built and the source for all that _should_ work (though the tests weren't ported over after some changes)
+
+Most of the other stuff has been refactored and split into standalone, smaller packages (e.g. [webgl-simple](https://github.com/dakom/webgl-simple), [input-funnel](https://github.com/dakom/input-funnel), etc.)
 
 What follows are some of the docs/thoughts on this experiment - not necessarily the concept of the drift-utils stuff as a whole.
 
