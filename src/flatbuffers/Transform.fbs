@@ -1,0 +1,26 @@
+include "./Matrix4.fbs";
+include "./Vector4.fbs";
+
+namespace Transform;
+table Props {
+    localSpace: Matrix4.Values;
+    worldSpace: Matrix4.Values;
+    parentWorldSpace: Matrix4.Values;
+    posX: double;
+    posY: double;
+    posZ: double;
+    originX: double;
+    originY: double;
+    originZ: double;
+    scaleX: double;
+    scaleY: double;
+    scaleZ: double;
+    rotX: double;
+    rotY: double;
+    rotZ: double;
+    rotW: double;
+}
+
+
+
+root_type Props;

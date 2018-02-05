@@ -1,0 +1,8 @@
+include "./Camera.fbs";
+namespace Screen;
+table Event {
+    width:double;
+    height:double;
+    camera:Camera.Props;
+}
+root_type Event;

@@ -1,0 +1,6 @@
+namespace Keyboard;
+table Event {
+    status:int;
+    key:string;
+}
+root_type Event;

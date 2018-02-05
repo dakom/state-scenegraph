@@ -1,0 +1,14 @@
+include "./Transform.fbs";
+
+namespace State;
+
+table Element {
+    typeId:string;
+    text:string;
+    props:[ubyte];
+    children:[Element];
+    childIsText:bool;
+    transform:Transform.Props;
+}
+
+root_type Element;

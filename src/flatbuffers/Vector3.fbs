@@ -1,0 +1,10 @@
+//https://github.com/google/flatbuffers/issues/4512
+
+namespace Vector3;
+table Values {
+    a: double;
+    b: double;
+    c: double;
+}
+
+root_type Values;

@@ -1,0 +1,27 @@
+//https://github.com/google/flatbuffers/issues/4512
+
+namespace Matrix4;
+table Values {
+    a: double;
+    b: double;
+    c: double;
+    d: double;
+
+    e: double;
+    f: double;
+    g: double;
+    h: double;
+
+    i: double;
+    j: double;
+    k: double;
+    l: double;
+
+    m: double;
+    n: double;
+    o: double;
+    p: double;
+
+}
+
+root_type Values;

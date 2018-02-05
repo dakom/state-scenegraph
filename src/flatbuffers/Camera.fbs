@@ -1,0 +1,9 @@
+include "./Matrix4.fbs";
+
+namespace Camera;
+table Props {
+    projection:Matrix4.Values;
+    eye:Matrix4.Values;
+    matrix:Matrix4.Values;
+}
+root_type Props;

@@ -1,0 +1,9 @@
+namespace Pointer;
+table Event {
+    status:int;
+    x:double;
+    y:double;
+    hasX:bool;
+    hasY:bool;
+}
+root_type Event;

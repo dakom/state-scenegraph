@@ -1,0 +1,8 @@
+namespace Input;
+table Event {
+    sourceId:string;
+    schedule:string;
+    data:[ubyte];
+    ts:double;
+}
+root_type Event;

@@ -1,0 +1,11 @@
+//https://github.com/google/flatbuffers/issues/4512
+
+namespace Vector4;
+table Values {
+    a: double;
+    b: double;
+    c: double;
+    d: double;
+}
+
+root_type Values;

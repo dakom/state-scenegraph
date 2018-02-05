@@ -1,0 +1,6 @@
+namespace Tick;
+table Event {
+    frameTs:double;
+    dt:double;
+}
+root_type Event;
