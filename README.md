@@ -4,13 +4,11 @@
 
 ## [Live Demo](https://dakom.github.io/state-scenegraph)
 
-# This is now deprecated
-
 This example uses a full copy of an old drift-utils package to build an interactive scene graph
 
-Flatbuffer serialization and the JSX/State/Lens utilities have now been deprecated, but they exist here under the `lib` folder in their entirety
+Flatbuffer serialization and the JSX/State/Lens utilities were deprecated well before this release, but this was the last public demo built.
 
-Consequently, along with this serving the purpose of an interesting experiment, it's a snapshot of the utils before they got decimated ;)
+What follows are some of the docs/thoughts on this experiment - not necessarily the concept of the drift-utils stuff as a whole.
 
 # What is a "StateElement" ?
 
