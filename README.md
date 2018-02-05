@@ -10,7 +10,7 @@ Flatbuffer serialization and the JSX/State/Lens utilities were deprecated well b
 
 Most of the other stuff has been refactored and split into standalone, smaller packages (e.g. [webgl-simple](https://github.com/dakom/webgl-simple), [input-funnel](https://github.com/dakom/input-funnel), etc.)
 
-What follows are some of the docs/thoughts on this experiment - not necessarily the concept of the drift-utils stuff as a whole.
+What follows are some of the docs/thoughts on this experiment in particular, with focus on the general idea of using lenses with the StateElement construct.
 
 # What is a "StateElement" ?
 
