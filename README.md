@@ -1,4 +1,4 @@
-# Drift - StateElement SceneGraph Example
+# State Scenegraph
 
 [![Build Status](https://travis-ci.org/dakom/state-scenegraph.svg?branch=master)](https://travis-ci.org/dakom/state-scenegraph)
 
